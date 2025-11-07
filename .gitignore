@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Audio cache
+*.wav
+*.mp3
+
+# Models
+models/*.pt
+models/*.bin
+models/*.safetensors
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Gradio cache
+gradio_cached_examples/
+
+# Others
+*.zip
